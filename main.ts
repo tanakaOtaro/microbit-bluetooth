@@ -47,6 +47,9 @@ let RadioData: number;
         // Moves robot slowly forward.
         speed = 895
     } else if (webvalue == "s") {
+        // ブレーキを解除する
+        // Releases brakes.
+        MOVE()
         // 旋回しない
         // No turning.
         turn = 0
